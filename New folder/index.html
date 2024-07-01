@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Formulario</h2>
+        <form action="/" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <label for="motivo">Motivo de Contacto:</label>
+            <select id="motivo" name="motivo" required>
+                <option value="">4</option>
+                <option value="consulta">4 4</option>
+                <option value="soporte">4 4 4</option>
+                <option value="comentario">4 4 4 4</option>
+                <option value="otros">4 4 4 4 4</option>
+            </select>
+
+            <legend>Selecciona una opción</legend>
+            <label><br>
+                <input type="radio" name="opcion" value="opcion1" required>
+                4
+            </label>
+            <label>
+                <input type="radio" name="opcion" value="opcion2">
+                4 4
+            </label>
+            <label>
+                <input type="radio" name="opcion" value="opcion3">
+                4 4 4
+            </label><br>
+            <table border="1" style="border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>4°</th>
+                        <th>4°</th>
+                        <th>4°</th>
+                        <th>4°</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>04</td>
+                        <td>08</td>
+                        <td>12</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>24</td>
+                        <td>28</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td>40</td>
+                        <td>44</td>
+                        <td>48</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td>56</td>
+                        <td>60</td>
+                        <td>64</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+
+</html>
